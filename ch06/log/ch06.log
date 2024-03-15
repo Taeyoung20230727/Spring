@@ -1,0 +1,190 @@
+2024-03-12T18:45:32.251+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : Starting User2MapperTest using Java 17.0.9 with PID 8584 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T18:45:32.254+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T18:45:33.076+09:00  INFO 8584 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T18:45:33.466+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : Started User2MapperTest in 1.371 seconds (process running for 1.884)
+2024-03-12T18:45:33.985+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : deleteUser2...
+2024-03-12T18:45:34.000+09:00  INFO 8584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T18:45:34.215+09:00  INFO 8584 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fc28e5b
+2024-03-12T18:45:34.217+09:00  INFO 8584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T18:45:34.250+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : updateUser2...
+2024-03-12T18:45:34.260+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : insertUser2...
+2024-03-12T18:45:34.343+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : selectUser2...
+2024-03-12T18:45:34.346+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : User2DTO(uid=A106, name=이순신, birth=1981-05-23, addr=부산시 진구)
+2024-03-12T18:45:34.348+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : selectUser2s...
+2024-03-12T18:45:34.350+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : User2DTO(uid=A102, name=젓가락, birth=1976-05-21, addr=충북 괴산)
+2024-03-12T18:45:34.350+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : User2DTO(uid=A103, name=장보고, birth=1978-03-01, addr=전남 완도군)
+2024-03-12T18:45:34.350+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : User2DTO(uid=A106, name=이순신, birth=1981-05-23, addr=부산시 진구)
+2024-03-12T18:45:34.350+09:00  INFO 8584 --- [main] kr.co.ch06.Mapper.User2MapperTest        : User2DTO(uid=j103, name=숟 가락, birth=1945-12-14, addr=속초)
+2024-03-12T18:45:34.355+09:00  INFO 8584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T18:45:34.386+09:00  INFO 8584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T18:46:03.715+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : Starting User3MapperTest using Java 17.0.9 with PID 3956 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T18:46:03.716+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T18:46:04.554+09:00  INFO 3956 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T18:46:04.875+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : Started User3MapperTest in 1.344 seconds (process running for 1.827)
+2024-03-12T18:46:05.376+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : deleteUser3...
+2024-03-12T18:46:05.385+09:00  INFO 3956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T18:46:05.537+09:00  INFO 3956 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37142579
+2024-03-12T18:46:05.539+09:00  INFO 3956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T18:46:05.576+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : updateUser3...
+2024-03-12T18:46:05.588+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : insertUser3...
+2024-03-12T18:46:05.654+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : selectUser3
+2024-03-12T18:46:05.659+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A102, name=사과빔, birth=1968-12-18, hp=010-2121-4751, addr=수원)
+2024-03-12T18:46:05.661+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : selectUser3s...
+2024-03-12T18:46:05.663+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A101, name=바 나나1, birth=1944-12-14, hp=010-8855-5588, addr=브라질)
+2024-03-12T18:46:05.663+09:00  INFO 3956 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A102, name=사과빔, birth=1968-12-18, hp=010-2121-4751, addr=수원)
+2024-03-12T18:46:05.668+09:00  INFO 3956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T18:46:05.678+09:00  INFO 3956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T18:47:39.725+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : Starting User3MapperTest using Java 17.0.9 with PID 11300 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T18:47:39.725+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T18:47:40.579+09:00  INFO 11300 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T18:47:40.949+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : Started User3MapperTest in 1.416 seconds (process running for 1.918)
+2024-03-12T18:47:41.467+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : deleteUser3...
+2024-03-12T18:47:41.483+09:00  INFO 11300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T18:47:41.653+09:00  INFO 11300 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fd9e01c
+2024-03-12T18:47:41.654+09:00  INFO 11300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T18:47:41.687+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : updateUser3...
+2024-03-12T18:47:41.697+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : insertUser3...
+2024-03-12T18:47:41.702+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : selectUser3
+2024-03-12T18:47:41.705+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A102, name=사과빔, birth=1968-12-18, hp=010-2121-4751, addr=수원)
+2024-03-12T18:47:41.708+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : selectUser3s...
+2024-03-12T18:47:41.709+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A101, name=바 나나1, birth=1944-12-14, hp=010-8855-5588, addr=브라질)
+2024-03-12T18:47:41.710+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A102, name=사과빔, birth=1968-12-18, hp=010-2121-4751, addr=수원)
+2024-03-12T18:47:41.710+09:00  INFO 11300 --- [main] kr.co.ch06.Mapper.User3MapperTest        : User3DTO(uid=A104, name=사과, birth=1921-12-14, hp=010-6451-3157, addr=청도)
+2024-03-12T18:47:41.716+09:00  INFO 11300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T18:47:41.718+09:00  INFO 11300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T19:30:00.791+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : Starting User4MapperTest using Java 17.0.9 with PID 14372 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T19:30:00.792+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T19:30:01.621+09:00  INFO 14372 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T19:30:01.946+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : Started User4MapperTest in 1.31 seconds (process running for 1.812)
+2024-03-12T19:30:02.450+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : deleteUser4
+2024-03-12T19:30:02.459+09:00  INFO 14372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T19:30:02.629+09:00  INFO 14372 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@441aa7ae
+2024-03-12T19:30:02.630+09:00  INFO 14372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T19:30:02.668+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : updateUser4...
+2024-03-12T19:30:02.683+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : insertUser4...
+2024-03-12T19:30:02.691+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : selectUser4
+2024-03-12T19:30:02.696+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A102, name=김춘추, gender=M, age=23, hp=010-1234-2222, addr=경남 경주시)
+2024-03-12T19:30:02.699+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : selectUser4s
+2024-03-12T19:30:02.701+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A101, name=김유신, gender=M, age=24, hp=010-1234-1653, addr=경남 김해시)
+2024-03-12T19:30:02.701+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A102, name=김춘추, gender=M, age=23, hp=010-1234-2222, addr=경남 경주시)
+2024-03-12T19:30:02.701+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A103, name=장보고, gender=M, age=35, hp=010-1234-3333, addr=전남 완도군)
+2024-03-12T19:30:02.701+09:00  INFO 14372 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A105, name=사이다, gender=F, age=25, hp=010-2421-5124, addr=창원)
+2024-03-12T19:30:02.707+09:00  INFO 14372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T19:30:02.710+09:00  INFO 14372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T19:37:34.345+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : Starting User4MapperTest using Java 17.0.9 with PID 2268 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T19:37:34.346+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T19:37:35.164+09:00  INFO 2268 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T19:37:35.513+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : Started User4MapperTest in 1.323 seconds (process running for 1.795)
+2024-03-12T19:37:36.007+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : deleteUser4
+2024-03-12T19:37:36.015+09:00  INFO 2268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T19:37:36.163+09:00  INFO 2268 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d229912
+2024-03-12T19:37:36.164+09:00  INFO 2268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T19:37:36.195+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : updateUser4...
+2024-03-12T19:37:36.207+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : insertUser4...
+2024-03-12T19:37:36.267+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : selectUser4
+2024-03-12T19:37:36.272+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A102, name=김춘추, gender=M, age=23, hp=010-1234-2222, addr=경남 경주시)
+2024-03-12T19:37:36.275+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : selectUser4s
+2024-03-12T19:37:36.277+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A101, name=김유신, gender=M, age=24, hp=010-1234-1653, addr=경남 김해시)
+2024-03-12T19:37:36.277+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A102, name=김춘추, gender=M, age=23, hp=010-1234-2222, addr=경남 경주시)
+2024-03-12T19:37:36.277+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A103, name=장보고, gender=M, age=35, hp=010-1234-3333, addr=전남 완도군)
+2024-03-12T19:37:36.277+09:00  INFO 2268 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A105, name=사이다, gender=F, age=25, hp=010-2421-5124, addr=창원)
+2024-03-12T19:37:36.287+09:00  INFO 2268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T19:37:36.312+09:00  INFO 2268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T19:38:06.451+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : Starting User4MapperTest using Java 17.0.9 with PID 7560 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T19:38:06.452+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T19:38:07.299+09:00  INFO 7560 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T19:38:07.666+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : Started User4MapperTest in 1.365 seconds (process running for 1.857)
+2024-03-12T19:38:08.133+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : deleteUser4
+2024-03-12T19:38:08.144+09:00  INFO 7560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T19:38:08.306+09:00  INFO 7560 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@190bf8e4
+2024-03-12T19:38:08.307+09:00  INFO 7560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T19:38:08.339+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : updateUser4...
+2024-03-12T19:38:08.352+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : insertUser4...
+2024-03-12T19:38:08.421+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : selectUser4
+2024-03-12T19:38:08.427+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A102, name=갈매기, gender=M, age=24, hp=010-1234-2211, addr=서울시 강남구)
+2024-03-12T19:38:08.430+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : selectUser4s
+2024-03-12T19:38:08.432+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A101, name=김유신, gender=M, age=24, hp=010-1234-1653, addr=경남 김해시)
+2024-03-12T19:38:08.432+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A102, name=갈매기, gender=M, age=24, hp=010-1234-2211, addr=서울시 강남구)
+2024-03-12T19:38:08.432+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A103, name=장보고, gender=M, age=35, hp=010-1234-3333, addr=전남 완도군)
+2024-03-12T19:38:08.432+09:00  INFO 7560 --- [main] kr.co.ch06.Mapper.User4MapperTest        : User4DTO(uid=A105, name=사이다, gender=F, age=25, hp=010-2421-5124, addr=창원)
+2024-03-12T19:38:08.437+09:00  INFO 7560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T19:38:08.443+09:00  INFO 7560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T20:06:24.859+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Starting User5MapperTest using Java 17.0.9 with PID 11340 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T20:06:24.860+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T20:06:25.699+09:00  INFO 11340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T20:06:26.100+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Started User5MapperTest in 1.394 seconds (process running for 1.891)
+2024-03-12T20:06:26.624+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : deleteUser5
+2024-03-12T20:06:26.640+09:00  INFO 11340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T20:06:26.827+09:00  INFO 11340 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@104bc677
+2024-03-12T20:06:26.828+09:00  INFO 11340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T20:06:26.861+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : updateUser5...
+2024-03-12T20:06:26.873+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : insertUser5...
+2024-03-12T20:06:26.881+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5
+2024-03-12T20:06:26.887+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:06:26.891+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5s
+2024-03-12T20:06:26.894+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:06:26.894+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=2, name=관공, gender=M, age=60, addr=촉)
+2024-03-12T20:06:26.894+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=3, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:06:26.894+09:00  INFO 11340 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=4, name=장비, gender=M, age=35, addr=촉)
+2024-03-12T20:06:26.902+09:00  INFO 11340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T20:06:26.905+09:00  INFO 11340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T20:08:45.425+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Starting User5MapperTest using Java 17.0.9 with PID 13632 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T20:08:45.426+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T20:08:46.262+09:00  INFO 13632 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T20:08:46.610+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Started User5MapperTest in 1.336 seconds (process running for 1.86)
+2024-03-12T20:08:47.091+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : deleteUser5
+2024-03-12T20:08:47.100+09:00  INFO 13632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T20:08:47.265+09:00  INFO 13632 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36ecf9f6
+2024-03-12T20:08:47.266+09:00  INFO 13632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T20:08:47.300+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : updateUser5...
+2024-03-12T20:08:47.310+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : insertUser5...
+2024-03-12T20:08:47.318+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5
+2024-03-12T20:08:47.322+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:08:47.325+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5s
+2024-03-12T20:08:47.327+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:08:47.327+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=2, name=관공, gender=M, age=60, addr=촉)
+2024-03-12T20:08:47.327+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=4, name=장비, gender=M, age=35, addr=촉)
+2024-03-12T20:08:47.327+09:00  INFO 13632 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=5, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:08:47.333+09:00  INFO 13632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T20:08:47.335+09:00  INFO 13632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T20:22:08.989+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Starting User5MapperTest using Java 17.0.9 with PID 15132 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T20:22:08.990+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T20:22:09.854+09:00  INFO 15132 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T20:22:10.261+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Started User5MapperTest in 1.443 seconds (process running for 1.938)
+2024-03-12T20:22:10.714+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : deleteUser5
+2024-03-12T20:22:10.730+09:00  INFO 15132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T20:22:10.904+09:00  INFO 15132 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73e399cc
+2024-03-12T20:22:10.906+09:00  INFO 15132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T20:22:10.941+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : updateUser5...
+2024-03-12T20:22:10.950+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : insertUser5...
+2024-03-12T20:22:10.960+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5
+2024-03-12T20:22:10.964+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:22:10.966+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5s
+2024-03-12T20:22:10.968+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:22:10.968+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=2, name=관공, gender=M, age=60, addr=촉)
+2024-03-12T20:22:10.968+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=4, name=장비, gender=M, age=35, addr=촉)
+2024-03-12T20:22:10.968+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=5, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:22:10.968+09:00  INFO 15132 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=6, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:22:10.974+09:00  INFO 15132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T20:22:10.976+09:00  INFO 15132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-12T20:22:44.177+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Starting User5MapperTest using Java 17.0.9 with PID 5640 (started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-12T20:22:44.178+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T20:22:44.986+09:00  INFO 5640 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-12T20:22:45.389+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : Started User5MapperTest in 1.362 seconds (process running for 1.844)
+2024-03-12T20:22:45.929+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : deleteUser5
+2024-03-12T20:22:45.942+09:00  INFO 5640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-12T20:22:46.113+09:00  INFO 5640 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e62ca19
+2024-03-12T20:22:46.114+09:00  INFO 5640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-12T20:22:46.145+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : updateUser5...
+2024-03-12T20:22:46.155+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : insertUser5...
+2024-03-12T20:22:46.164+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5
+2024-03-12T20:22:46.168+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:22:46.172+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : selectUser5s
+2024-03-12T20:22:46.174+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=1, name=유비, gender=M, age=57, addr=촉)
+2024-03-12T20:22:46.175+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=2, name=관공, gender=M, age=60, addr=촉)
+2024-03-12T20:22:46.175+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=4, name=장비, gender=M, age=35, addr=촉)
+2024-03-12T20:22:46.175+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=5, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:22:46.175+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=6, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:22:46.175+09:00  INFO 5640 --- [main] kr.co.ch06.Mapper.User5MapperTest        : User5DTO(seq=7, name=조조, gender=M, age=55, addr=위)
+2024-03-12T20:22:46.182+09:00  INFO 5640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-12T20:22:46.185+09:00  INFO 5640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
