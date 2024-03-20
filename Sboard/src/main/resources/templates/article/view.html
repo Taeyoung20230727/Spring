@@ -1,0 +1,42 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="/layout/userLayout.html">
+
+<div class="container-fluid px-4" layout:fragment="content">
+    <h3 class="mt-4 mb-4">게시판 상세보기</h3>
+
+    <!-- 내용 시작 -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            게시글 상세
+        </div>
+        <div class="card-body">
+            <!-- 수정 폼 시작 -->
+            <form th:action="@{/article/update(__${article.no}__)}" method="post">
+                <div class="mb-3">
+                    <label for="articleNo" class="form-label">번호</label>
+                    <input type="text" class="form-control" id="articleNo" th:value="${article.no}" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="articleTitle" class="form-label">제목</label>
+                    <input type="text" class="form-control" id="articleTitle" name="title" th:value="${article.title}">
+                </div>
+                <div class="mb-3">
+                    <label for="articleWriter" class="form-label">작성자</label>
+                    <input type="text" class="form-control" id="articleWriter" th:value="${article.writer}" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="articleContent" class="form-label">내용</label>
+                    <textarea class="form-control" id="articleContent" rows="10" name="content" th:text="${article.content}"></textarea>
+                </div>
+                <!-- 내용의 다른 부분은 그대로 유지 -->
+                <div class="text-end">
+                    <a th:href="@{/article/list}" class="btn btn-secondary">목록으로 돌아가기</a>
+                    <button type="submit" class="btn btn-primary">수정하기</button>
+                </div>
+            </form>
+            <!-- 수정 폼 끝 -->
+        </div>
+    </div>
+</html>
